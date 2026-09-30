@@ -1,0 +1,26 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- Ambienti Virtuali ---
+.venv/
+venv/
+env/
+
+# --- IDE e OS ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Dati e Modelli (Saranno gestiti da DVC) ---
+/data/
+/models/
+*.csv
+*.parquet
+*.pkl
+*.joblib
